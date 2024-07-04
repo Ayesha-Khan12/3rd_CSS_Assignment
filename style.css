@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: #4cb050;
+}
+h1{
+    padding-top: 1rem;
+    
+}
+nav{
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+ul li{
+    margin: 0.5rem;
+    display: inline-block;
+
+
+}
+a{
+    color: #fff;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 8px 18px;
+    border: 2px solid #fff;
+}
+.link a:visited{
+color: white;
+text-decoration: none;
+}
+.link a:link{
+    color: white;
+    text-decoration: none;
+}
+.link a:hover{
+    border: 2px solid #83d386;
+    color: #83d386;
+}
+hr{
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid #4cb050;
+}
+p {
+    color: #1a1919;
+}
+#home{
+    background-color: #fff;
+    color: #4cb050;
+    padding: 35px 25px;
+   
+}
+
+
+#about{
+    background-color: #f9f9f9;
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    color: #4cb050;
+    padding: 35px 25px;
+}
+#services{
+    background-color: #fff;
+    color: #4cb050;
+    padding: 35px 25px
+}
+#portfolio{
+    background-color: #f9f9f9;
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+ padding: 35px 25px;
+ color: #4cb050;
+
+
+}
+#Blog{
+    background-color: #fff;
+    color: #4cb050;
+    padding: 35px 25px;
+   
+}
+#Blog h3{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#contact{
+    background-color: #f9f9f9;
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    color: rgb(10, 121, 10);
+    padding: 1rem;
+    padding-top: 1rem;
+
+}
+
+.c1{
+    margin-bottom: 15px;
+}
+footer{
+    padding: 1rem;
+    background-color: #4cb050;
+    text-align: center;
+    color: white;
+}
